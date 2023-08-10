@@ -54,9 +54,11 @@ class EventListener implements Listener {
                     }
                 }
 
+                $lore = [];
                 foreach ($loreLines as $loreLine) {
-                    $item->getLore()[] = TextFormat::colorize($loreLine);
+                    $lore[] = TextFormat::colorize($loreLine);
                 }
+                $item->setLore($lore);
 
                 $inventory->addItem($item);
             }
