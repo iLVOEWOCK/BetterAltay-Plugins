@@ -1,0 +1,29 @@
+# config.yml
+
+starterItems:
+  # Define properties for the first starter item (Diamond Sword).
+  - item: "diamond_sword"          # Item name (e.g: Diamond Sword).
+    name: "&bMighty Sword"         # Custom display name (optional).
+    amount: 1                      # Amount of items.
+    enchantments:                  # List of enchantments for the item.
+      - enchantment: "sharpness"   # Enchantment type (e.g: Sharpness).
+        level: 3                   # Enchantment level.
+      - enchantment: "unbreaking"  # Enchantment type (e.g: Unbreaking).
+        level: 1                   # Enchantment level.
+    lore:                          # List of lore lines for the item.
+      - "&7A sword of great power."
+      - "&7Unbreakable, and sharp as a diamond."
+
+  # Define properties for the second starter item (Golden Apples).
+  - item: "golden_apple"           # Item name (e.g: Golden Apple).
+    amount: 3                      # Amount of items.
+
+  # Define properties for the third starter item (Iron Pickaxe).
+  - item: "iron_pickaxe"           # Item name (e.g: Iron Pickaxe).
+    name: "&fSturdy Pickaxe"       # Custom display name (optional).
+    amount: 1                      # Amount of items.
+    enchantments:                  # List of enchantments for the item.
+      - enchantment: "efficiency"  # Enchantment type (Efficiency).
+        level: 2                   # Enchantment level.
+    lore:                          # List of lore lines for the item.
+      - "&7A reliable tool for mining."
