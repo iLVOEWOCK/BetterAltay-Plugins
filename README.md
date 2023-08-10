@@ -6,4 +6,4 @@ Welcome to the BetterAltay-Plugins repository! This repository contains a collec
 
 Below is a list of plugins included in this repository:
 
-1. [StarterItems-BA](./StarterItems/): Gives first time players a starter kit.
+1. [StarterItems-BA](./StarterItems-BA/): Gives first time players a starter kit.
